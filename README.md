@@ -54,6 +54,7 @@ Patches to **[steel-dev/steel-browser](https://github.com/steel-dev/steel-browse
 | [JalSetu](https://github.com/painbaba/jalsetu) | Tells a housing society exactly when its water runs out |
 | [CutDirector](https://github.com/painbaba/cutdirector) | One line of English to a playable film, fully offline |
 | [PadhaiSetu](https://github.com/painbaba/padhaisetu) | Adaptive vernacular tutor for MP Board |
+| [SevaSetu](https://github.com/painbaba/sevasetu) | WhatsApp-style Hindi/English gateway to public services with tested certificate, OPD and newborn journeys |
 
 ### Stack
 
