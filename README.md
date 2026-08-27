@@ -12,7 +12,7 @@ Patches to **[steel-dev/steel-browser](https://github.com/steel-dev/steel-browse
 
 **[#355](https://github.com/steel-dev/steel-browser/pull/355) — session viewer rendered the wrong session.** No Router was ever mounted, so `useParams()` returned undefined and every viewer URL fell back to `sessions[0]`. The header meanwhile hand-parsed `window.location`, so the header named one session while the body rendered another. Measured before and after in a real browser: 3 of 5 API calls hit the list endpoint before, 0 of 1 after.
 
-**[browserless/browserless#5551](https://github.com/browserless/browserless/pull/5551) — `/json/new` now opens the requested URL.** The endpoint ignored its request and hardcoded `about:blank`; the actual page is only created later when the client connects to the returned websocket. Preserved the raw DevTools query form before Browserless normalizes it, carried the target across that boundary, declared it in the strict websocket schema, and applied the navigation-security policy at both entry points. 65 core tests, 11 JSON-route tests, and a real Chromium end-to-end check.
+**[browserless/browserless#5551](https://github.com/browserless/browserless/pull/5551) — `/json/new` now opens the requested URL.** The endpoint ignored its request and hardcoded `about:blank`; the actual page is only created later when the client connects to the returned websocket. Preserved the raw DevTools query form before Browserless normalizes it, carried the target across that boundary, declared it in the strict websocket schema, and applied the navigation-security policy at both entry points. 69 core tests, 11 JSON-route tests, and a real Chromium end-to-end check.
 
 ### Agents & infrastructure
 
