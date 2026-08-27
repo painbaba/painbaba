@@ -16,7 +16,7 @@ Patches to **[steel-dev/steel-browser](https://github.com/steel-dev/steel-browse
 
 ### Agents & infrastructure
 
-**[XOMNI](https://github.com/painbaba/xomni)** — one agent, every feature, every free model. Unifies 6 open-source coding agents on a single host: 12 plugins, a provider pool routing 25 verified free models, 329 passing tests.
+**[XOMNI](https://github.com/painbaba/xomni)** — one agent, every feature, every free model. Composes 7 open-source coding agents on one host with 35 plugins, a provider pool routing 25 verified free models, and a 1,251-test suite.
 
 **[unified-agent](https://github.com/painbaba/unified-agent)** — Hermes host + 13 modules: context compaction, sandbox gating, MCP catalog, repo mapping, GitHub ops, local model serving, verification runner.
 
