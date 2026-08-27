@@ -1,24 +1,32 @@
 ## Hi, I'm Pratham
 
-I build **AI agent infrastructure** — agent runtimes, provider routing, MCP tooling, and browser-driving agents. I also ship full-stack product and do offensive-security research. India-based, working in public.
+I build **AI agent infrastructure** — agent runtimes, browser-driving agents, provider routing and MCP tooling. I also ship full-stack product. India-based, working in public.
 
-### What I'm building
+### Agents & infrastructure
 
 **[XOMNI](https://github.com/painbaba/xomni)** — one agent, every feature, every free model. Unifies 6 open-source coding agents on a single host: 12 plugins, a provider pool routing 25 verified free models, 329 passing tests.
 
 **[unified-agent](https://github.com/painbaba/unified-agent)** — Hermes host + 13 modules: context compaction, sandbox gating, MCP catalog, repo mapping, GitHub ops, local model serving, verification runner.
 
-**[OpenBerry](https://github.com/painbaba/openberry)** — a local agentic browser for Windows. An agent drives your real Chrome/Edge across tabs over the Chrome DevTools Protocol, logged in as you. 100% local, MIT.
+**[StrawManus](https://github.com/painbaba/strawmanus)** — a browser-control agent fusing Manus's flat 12-tool action layer with a session, natural-language selector and skill-reuse layer. Runs in your real logged-in browser, self-heals when sites change, replays successful tasks as skills. Ships an MCP server.
+
+**[BX Browser](https://github.com/painbaba/bx-browser)** — DOM-first, vision-capable browser agent. Reads the accessibility tree for 2–4s steps and falls back to vision only when the page demands it. Session keep-alive, model-ladder fallback, zero-dependency core.
+
+**[OpenBerry](https://github.com/painbaba/openberry)** — a local agentic browser for Windows. An agent drives your real Chrome/Edge across tabs over CDP, logged in as you. 100% local, MIT.
+
+**[hermes-skills](https://github.com/painbaba/hermes-skills)** — custom skills for Hermes Agent: delegation recovery, session artifact recovery, CLI APK builds, constrained-budget scraping.
+
+### Applied agents
+
+**[VIGIL](https://github.com/painbaba/vigil)** — autonomous trading-ops agent. Scans markets around the clock, rule-checks, signals, monitors, journals. Google "All Things Agentic".
+
+**[PantryWatch](https://github.com/painbaba/pantrywatch)** — stops food-bank donations expiring. AWS Strands Agents SDK.
+
+**[Hackathon Radar](https://github.com/painbaba/hackathon-radar)** — Devpost scanners, prize and deadline tracking, and win-pattern analysis. Most hackathon losses are selection losses, not build losses.
 
 **[StackPilot](https://github.com/painbaba/stackpilot)** — Android offer console for Indian delivery riders. Allowlisted read-only notification capture, deterministic on-device scoring and trip-chain routing. Kotlin, R8, signed releases.
 
-**[VIGIL](https://github.com/painbaba/vigil)** — autonomous trading-ops agent that scans markets around the clock, rule-checks, signals, monitors and journals. Built for Google's "All Things Agentic" hackathon.
-
-**[PantryWatch](https://github.com/painbaba/pantrywatch)** — an AI agent that stops food-bank donations expiring, on the AWS Strands Agents SDK.
-
-### Shipped and live
-
-Concept demos reimagining India's public digital services — all deployed and running:
+### Products & builds
 
 | | |
 |---|---|
@@ -29,15 +37,16 @@ Concept demos reimagining India's public digital services — all deployed and r
 | [CyberSafe First 30](https://cybersafe-first-30.vercel.app) | Emergency companion for cyber-fraud victims |
 | [PF Life Admin](https://pf-life-admin.vercel.app) | EPFO as a continuous employment timeline |
 | [Passport Ready](https://passport-ready-three.vercel.app) | Reach the PSK right the first time |
-| [PadhaiSetu](https://github.com/painbaba/padhaisetu) | Adaptive vernacular WhatsApp tutor for MP Board |
+| [KiranaLedger](https://github.com/painbaba/kiranaledger) | Voice-first Hinglish khata for kirana shops |
+| [GridSense](https://github.com/painbaba/gridsense) | Digital-twin smart-grid monitor with real-time anomaly detection |
+| [JalSetu](https://github.com/painbaba/jalsetu) | Tells a housing society exactly when its water runs out |
+| [CutDirector](https://github.com/painbaba/cutdirector) | One line of English to a playable film, fully offline |
+| [PadhaiSetu](https://github.com/painbaba/padhaisetu) | Adaptive vernacular tutor for MP Board |
 
 ### Stack
 
 `Python` `TypeScript` `Next.js` `React` `Kotlin` `Node`
+
 Agent runtimes · MCP servers · Chrome DevTools Protocol · Playwright · multi-provider LLM routing · Cloudflare Workers · AWS Strands · Vercel
-
-### Also
-
-Security research — continuous automated OSS auditing against authorised programs, recon tooling, CTF (IIT-Kanpur CySec track). Deep-research pipelines running 20–50 parallel agents.
 
 📫 painpratham@gmail.com
